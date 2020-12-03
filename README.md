@@ -2,7 +2,7 @@
 ## Create a file and add the following
 ```
 module "db" {
-source = "./instance"
+source = "ortacu/instance/rds"
 region = "us-east-2"
 subnet_ids = [
 "subnet-xxxxxxx", 
